@@ -82,7 +82,7 @@ const Header = (props) => {
           <MenuItem to="/contact">Contact </MenuItem>
           <MenuItem to="/auth/signup" isLast>
             <Button colorScheme="teal" m={1} size="sm">
-              Signup222
+              Signup
             </Button>
           </MenuItem>
           <MenuItem to="/auth/login" isLast>
