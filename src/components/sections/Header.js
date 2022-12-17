@@ -42,11 +42,6 @@ const Header = (props) => {
   const [show, setShow] = React.useState(false);
   const toggleMenu = () => setShow(!show);
 
-  let activeStyle = {
-    textDecoration: "underline",
-  };
-  let activeClassName = "underline";
-
   return (
     <Flex
       as="nav"
