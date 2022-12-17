@@ -1,18 +1,29 @@
 import React from "react";
-
-import Hero from "../components/sections/Hero";
+import { Stack, Image } from "@chakra-ui/react";
 import LandingLayout from "../components/layouts/LandingLayout";
 
 export default function Landing() {
   return (
     <LandingLayout>
-      <Hero
-        title="Build this rad landing page from scratch"
-        subtitle="This is the subheader section where you describe the basic benefits of your product"
-        image="https://source.unsplash.com/collection/404339/800x600"
-        ctaText="Create your account now"
-        ctaLink="/auth/signup"
-      />
+      <Stack direction="row">
+        <Image
+          boxSize="100px"
+          objectFit="cover"
+          src="https://bit.ly/dan-abramov"
+          alt="Dan Abramov"
+        />
+        <Image
+          boxSize="150px"
+          objectFit="cover"
+          src="https://bit.ly/dan-abramov"
+          alt="Dan Abramov"
+        />
+        <Image
+          boxSize="200px"
+          src="https://bit.ly/dan-abramov"
+          alt="Dan Abramov"
+        />
+      </Stack>
     </LandingLayout>
   );
 }
