@@ -81,7 +81,7 @@ const Header = (props) => {
           direction={["column", "row", "row", "row"]}
           pt={[1, 2, 0, 0]}
         >
-          {/* <MenuItem to="/">Page</MenuItem>
+          <MenuItem to="/">Page</MenuItem>
           <MenuItem to="/home">How It works </MenuItem>
           <MenuItem to="/about">About </MenuItem>
           <MenuItem to="/contact">Contact </MenuItem>
@@ -94,9 +94,9 @@ const Header = (props) => {
             <Button colorScheme="teal" variant="outline" size="sm">
               Login
             </Button>
-          </MenuItem> */}
+          </MenuItem>
 
-          <nav>
+          {/* <nav>
             <ul>
               <li>
                 <NavLink
@@ -126,7 +126,7 @@ const Header = (props) => {
                 </NavLink>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </Flex>
       </Box>
     </Flex>
