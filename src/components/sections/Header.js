@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text, Button } from "@chakra-ui/react";
 import Logo from "../ui/Logo";
 
 const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
