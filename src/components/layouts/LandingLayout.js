@@ -1,18 +1,12 @@
 import React from "react";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Box } from "@chakra-ui/react";
 import Header from "../sections/Header";
 
 export default function LandingLayout(props) {
   return (
-    <Flex
-      direction="column"
-      align="center"
-      maxW={{ xl: "1200px" }}
-      m="0 auto"
-      {...props}
-    >
+    <Flex direction="column" align="center" {...props}>
       <Header />
-      {props.children}
+      <Box width="100%">{props.children}</Box>
     </Flex>
   );
 }
